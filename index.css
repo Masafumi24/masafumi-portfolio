@@ -1,3 +1,10 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
 header {
   height: 30vh;
   box-sizing: border-box;
@@ -5,6 +12,9 @@ header {
   position: relative;
 }
 .topName {
+  position: absolute;
+  top: 7vh;
+  left: 20px;
   height: 105px;
   width: 500px;
 }
@@ -12,7 +22,6 @@ header {
   width: 50vw;
   display: flex;
   justify-content: space-evenly;
-  list-style: none;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -20,36 +29,130 @@ header {
 .profileLogo,
 .workLogo,
 .skillLogo,
-.hobbyLogo {
+.contactLogo {
+  cursor: pointer;
   margin-left: 2%;
-  height: 40px;
-  width: 50px;
+  height: 50px;
+  width: 120px;
 }
-.workLogo {
-  margin-left: 2%;
-  height: 26;
-  width: 180px;
-}
-.skillLogo {
-  margin-left: 2%;
-  height: 26;
-  width: 180px;
-}
-.hobbyLogo {
-  margin-left: 2%;
-  height: 26;
-  width: 180px;
-}
-
-
-
 .imageContent {
   background-color: yellow;
   height: 63vh;
 }
-
 .smooth{
-  background-color: violet;
   height: 7vh;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 6vh;
 }
-
+.fa-angle-double-down{
+  color: rgb(112, 112, 112); 
+}
+/* ・・・・・・ここまでがワンブロック目・・・・・・・・・ */
+.menuName {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+.profileContent {
+  text-align: center;
+  padding: 40px;
+}
+.profileBox{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vw;
+}
+.textBox {
+  width: 300px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 2.4;
+  color: rgb(112, 112, 112);
+}
+.profileImage {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+/* ・・・・・・ここまでがプロフィール・・・・・・・・・ */
+.modalbtn {
+  border-bottom: 1px solid;
+}
+.modalbtn:hover{
+  cursor: pointer;
+  color: black;
+  border-bottom: 1px solid;
+}
+.workContent {
+  text-align: center;
+  padding: 40px;
+}
+.workBox {
+  box-sizing: border-box;
+  background-color: white;
+  /* height: 40vh; */
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.appBox {
+  height: 500px;
+  width: 516px;
+  margin-left: 20px;
+  border: 1px solid rgb(190, 190, 190);
+}
+.appImage {
+  height: 294px;
+  width: 516px;
+}
+.appImage:hover {
+  opacity: 0.4;
+}
+.appTextBox{
+  color: rgb(112, 112, 112);
+  font-size: 18px;
+  line-height: 1.5;
+}
+.appTitle{
+  color: rgb(112, 112, 112);
+  font-size: 30px;
+  font-family: 'Comic Sans MS';
+}
+.appTitle:hover{
+  cursor: pointer;
+  opacity: 0.4;
+}
+/* ・・・・・・ここまでが作品・・・・・・・・・ */
+.skillContent {
+  text-align: center;
+  padding: 40px;
+}
+.skillBox {
+  background-color: rgb(242, 255, 254);
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+.skillTitle {
+  font-size: 25px;
+}
+.skillItem{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+/* ・・・・・・ここまでがスキル・・・・・・・・・ */
+.contactContent {
+  background-color: red;
+  height: 100vh;
+  text-align: center;
+}
