@@ -36,7 +36,10 @@ header {
   width: 120px;
 }
 .imageContent {
-  background-color: yellow;
+  background-image: url("images/albumtemp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 63vh;
 }
 .smooth{
@@ -93,7 +96,6 @@ header {
 .workBox {
   box-sizing: border-box;
   background-color: white;
-  /* height: 40vh; */
   width: 85vw;
   margin: 0 auto;
   display: flex;
@@ -132,6 +134,8 @@ header {
 .skillContent {
   text-align: center;
   padding: 40px;
+  color: rgb(112, 112, 112);
+
 }
 .skillBox {
   background-color: rgb(242, 255, 254);
@@ -152,7 +156,41 @@ header {
 }
 /* ・・・・・・ここまでがスキル・・・・・・・・・ */
 .contactContent {
-  background-color: red;
-  height: 100vh;
   text-align: center;
+  padding: 40px;
+  font-size: 20px;
+  color: rgb(112, 112, 112);
+}
+.contactBox {
+  margin-top: 30px;
+}
+.twittericon {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+.twitterName {
+  color: rgb(112, 112, 112);
+}
+/* ・・・・・・ここまでがコンタクト・・・・・・・・・ */
+.footerBox{
+  border-top: 1px solid;
+  width: 70vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+.footerName {
+}
+.footermenu{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.footerLogo {
+  cursor: pointer;
+  margin-left: 2%;
+  height: 70px;
+  width: 140px;
 }
