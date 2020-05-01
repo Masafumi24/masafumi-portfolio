@@ -2,10 +2,244 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>近藤真史 〜駆け出しエンジニアのポートフォリオ〜</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>近藤真史 〜駆け出しエンジニアのポートフォリオ〜</title>
   </head>
-
   <body>
+    <header>
+      <img src="images/name.png", class="topName">
+      <ul class="menus">
+        <li>
+          <a href="#profile"><img src="images/profile.png", class="profileLogo"></a>
+        </li>
+        <li>
+          <a href="#work"><img src="images/work.png", class="workLogo"></a>
+        </li>
+        <li>
+          <a href="#skill"><img src="images/skill.png", class="skillLogo"></a>
+        </li>
+        <li>
+          <a href="#contact"><img src="images/contact.png", class="contactLogo"></a>
+        </li>
+      </ul>
+    </header>
+    <div class="imageContent">      
+    </div>
+    <div class="smooth">
+      <a href="#profile"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+    <!-- ・・・・・・ここまでがワンブロック目・・・・・・・・・ -->
+    <div class="profileContent" id="profile">
+      <img src="images/profileMain.png", class="menuName">
+      <div class="profileBox">
+        <img src="images/mypicture.jpeg", class="profileImage">
+        <ul class="textBox">
+          <li>名前 ： MASAFUMI KONDO</li>
+          <li>年齢 ： 23歳</li>
+          <li>学歴 ： 愛媛県立北条高等学校卒</li>
+          <li>経歴 ： 高校卒業後、愛媛県の大手上場企業に就職。４年間就業。その後、大阪府の映像業者に就職。７ヶ月就業。</li>
+          <li>その後、プログラミングスクールTECH::CAMP入学。</li>
+          <li>約２ヶ月後卒業。現在就職活動中。</li>
+          <li>趣味 ： LIVE参戦、カラオケ、服選び</li>
+        </ul>
+      </div>
+    </div>
+    <!-- ・・・・・・ここまでがプロフィール・・・・・・・・・ -->
+    <div class="workContent" id="work">
+      <img src="images/workMain.png", class="menuName">
+      <div class="workBox">
+        <div class="appBox">
+          <a href="http://52.199.86.45/" target="_brank">
+            <img src="images/choiceitem.jpeg", class="appImage">
+          </a>
+          <div class="appTextBox">
+            <a href="http://52.199.86.45/" target="_brank">
+              <h1 class="appTitle">Choice Item</h1>
+            </a>
+            <br>毎日の服選びをもっと楽しく、
+            <br>そしてスムーズにするためにはどうすればいいか。
+            <br>それをテーマにこのアプリケーションを作成しました。
+            <p><a class="modalbtn">テストアカウント、詳細はこちら</a></p>
+          </div>
+        </div>
+        <div class="appBox">
+          <a href="http://54.199.158.19/" target="_brank">
+            <img src="images/furima.jpeg", class="appImage">
+          </a>
+          <div class="appTextBox">
+            <a href="http://54.199.158.19/" target="_brank">
+              <h1 class="appTitle">FURIMA APP</h1>
+            </a>
+            <br>TECH::CAMP最終課題のグループ開発にて
+            <br>作成しました。６人グループで開発し、
+            <br>スクラムマスターの経験も積むことができました。
+            <p><a class="modalbtn">テストアカウント、詳細はこちら</a></p>
+          </div>
+        </div>
+        <div class="appBox">
+          <a href="https://each-fashion.herokuapp.com/" target="_brank">
+            <img src="images/eachfashion.jpeg", class="appImage">
+          </a>
+          <div class="appTextBox">
+            <a href="https://each-fashion.herokuapp.com/" target="_brank">
+              <h1 class="appTitle">Each Fashion</h1>
+            </a>
+            <br>個人アプリ最初の一作目です。今見ると恥ずかしいです（笑）
+            <br>とにかく好きな配色、画像を沢山サイトの中に散りばめた
+            <br>個人的な画像投稿アプリです。
+            <p><a class="modalbtn">テストアカウント、詳細はこちら</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ・・・・・・ここまでがAPPLIST・・・・・・・・・ -->
+    <div class="skillContent" id="skill">
+      <img src="images/skillMain.png", class="menuName">
+      <div class="skillBox">
+        <h1 class="skillTitle">デザイン・コーディング</h1>
+        <br>大体のものは形にできるかなといったレベルです。
+        <ul class="skillItem">
+          <li class="skillMenu">技術</li>
+          <li class="skillMenu">経験年数</li>
+          <li class="skillMenu">スキル</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">HTML / haml</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">★★★・・</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">CSS / Sass&emsp;</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">★★★・・</li>
+        </ul>
+      </div>
+      <!-- ・・・・・・ここまでがデザイン・・・・・・・・・ -->
+      <div class="skillBox">
+        <h1 class="skillTitle">フロントエンド</h1>
+        <br>学習中です。
+        <ul class="skillItem">
+          <li class="skillMenu">技術</li>
+          <li class="skillMenu">経験年数</li>
+          <li class="skillMenu">スキル</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">javascrpt</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp; ★★・・・</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">jQuery&ensp;　</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp; ★★・・・</li>
+        </ul>
+      </div>
+      <!-- ・・・・・・ここまでがフロントエンド・・・・・・・・・ -->
+      <div class="skillBox">
+        <h1 class="skillTitle">サーバーサイド</h1>
+        <br>主にRuby on Railsを学習しました。
+        <ul class="skillItem">
+          <li class="skillMenu">技術</li>
+          <li class="skillMenu">経験年数</li>
+          <li class="skillMenu">スキル</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">Ruby on Rails</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">★★★・・</li>
+        </ul>
+      </div>
+      <!-- ・・・・・・ここまでがサーバーサイド・・・・・・・・・ -->
+      <div class="skillBox">
+        <h1 class="skillTitle">DB</h1>
+        <br>学習中です。
+        <ul class="skillItem">
+          <li class="skillMenu">技術</li>
+          <li class="skillMenu">経験年数</li>
+          <li class="skillMenu">スキル</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">MySQL</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp;&emsp;&emsp;★・・・・</li>
+        </ul>
+      </div>
+      <!-- ・・・・・・ここまでがDB・・・・・・・・・ -->
+      <div class="skillBox">
+        <h1 class="skillTitle">インフラ・サーバー</h1>
+        <br>学習中です。
+        <ul class="skillItem">
+          <li class="skillMenu">技術</li>
+          <li class="skillMenu">経験年数</li>
+          <li class="skillMenu">スキル</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">AWS&emsp;</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp;&emsp;★・・・・</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">heroku</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp;&emsp;★・・・・</li>
+        </ul>
+      </div>
+      <!-- ・・・・・・ここまでがインフラ・・・・・・・・・ -->
+      <div class="skillBox">
+        <h1 class="skillTitle">その他</h1>
+        <br>開発等で使用したツール
+        <ul class="skillItem">
+          <li class="skillMenu">技術</li>
+          <li class="skillMenu">経験年数</li>
+          <li class="skillMenu">スキル</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">GitHub</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp;&emsp;★★★・・</li>
+        </ul>
+        <ul class="skillItem">
+          <li class="skillMenu">slack&emsp;</li>
+          <li class="skillMenu">0年</li>
+          <li class="skillMenu">&emsp;&emsp;★★★・・</li>
+        </ul>
+      </div>
+      <!-- ・・・・・・ここまでがインフラ・・・・・・・・・ -->
+    </div>
+    <!-- ・・・・・・ここまでがSkillLIST・・・・・・・・・ -->
+    <div class="contactContent" id="contact">
+      <img src="images/contactMain.png", class="menuName">
+      <p>何かありましたらお手数ですがTwitterのDMまでお願い致します。</p>
+      <div class="contactBox">
+        <a href="https://twitter.com/konchan_exbaka", target="_brank">
+          <img src="images/twittericon.jpeg", class="twittericon">
+          <p class="twitterName">Twitterアカウント ： MASAFUMI(@konchan_exbaka)</p>
+        </a>
+      </div>
+    </div>
+    <!-- ・・・・・・ここまでがContactLIST・・・・・・・・・ -->
+    <footer>
+      <div class="footerBox">
+        <img src="images/name.png", class="footerName">
+        <ul class="footermenu">
+          <li>
+            <a href="#profile"><img src="images/profile.png", class="footerLogo"></a>
+          </li>
+          <li>
+            <a href="#work"><img src="images/work.png", class="footerLogo"></a>
+          </li>
+          <li>
+            <a href="#skill"><img src="images/skill.png", class="footerLogo"></a>
+          </li>
+          <li>
+            <a href="#contact"><img src="images/contact.png", class="footerLogo"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
