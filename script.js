@@ -9,9 +9,6 @@ $(function(){
   });
 });
 
-
-
-
 function choiceItem() {
   var popup = document.getElementById('choiceItem-popup');
   if(!popup) return;
