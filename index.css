@@ -61,7 +61,7 @@ a {
 }
 /* ・・・・・・・ここまでモーダル・・・・・・・・ */
 header {
-  height: 30vh;
+  height: 20vh;
   box-sizing: border-box;
   display: flex;
   position: relative;
@@ -91,19 +91,18 @@ header {
   width: 120px;
 }
 .imageContent {
-  background-image: url("images/albumtemp.png");
+  background-image: url("images/IMG_3474.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 63vh;
-}
-.smooth{
-  height: 7vh;
+  background-position: bottom;
+  height: 80vh;
   text-align: center;
+  position: relative;
   font-size: 50px;
-  margin-bottom: 6vh;
 }
 .fa-angle-double-down{
+  position: absolute;
+  bottom: 0;
   color: rgb(112, 112, 112); 
 }
 /* ・・・・・・ここまでがワンブロック目・・・・・・・・・ */
