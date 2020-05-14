@@ -133,6 +133,7 @@ header {
   width: 300px;
   object-fit: cover;
   border-radius: 200px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 /* ・・・・・・ここまでがプロフィール・・・・・・・・・ */
 .modalbtn {
@@ -156,12 +157,14 @@ header {
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  box-shadow: 2px 2px 4px gray;
 }
 .appBox {
   height: 500px;
   width: 516px;
   margin-left: 20px;
   border: 1px solid rgb(190, 190, 190);
+  box-shadow: 2px 2px 4px gray;
 }
 .appImage {
   height: 294px;
@@ -198,6 +201,7 @@ header {
   margin-bottom: 20px;
   padding: 20px;
   font-size: 20px;
+  box-shadow: 2px 2px 4px gray;
 }
 .skillTitle {
   font-size: 25px;
@@ -223,6 +227,8 @@ header {
   width: 200px;
   object-fit: cover;
   border-radius: 200px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+  margin-bottom: 20px;
 }
 .twitterName {
   color: rgb(112, 112, 112);
